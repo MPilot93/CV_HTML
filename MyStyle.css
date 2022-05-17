@@ -1,0 +1,140 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_left {
+    background-color: rgb(48, 97, 165);
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main_right_head {
+    background-color: rgb(230, 146, 29);
+    padding: 10px;
+}
+
+.main_left_head h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.main_left label,
+p {
+    color: black;
+   
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+.main_left ul {
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.main_left li {
+   
+    border-radius: 10px;
+    background-color: rgb(224, 193, 150);
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.main_right {
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+
+.main_right_descriptionContainer {
+    padding-top: 1px;
+    padding-left: 10px;
+}
+
+.main_right_descriptionContainer p {
+    font-size: small;
+    font-weight: 500;
+}
+
+
+
+.main_left_img {
+    position:relative;
+    padding-left: 15px;
+    border-radius: 80%;
+    height: 150px;
+    width: 130px;
+
+}
+
+.mailContacts,
+.phoneContacts {
+
+    width: 50%;
+    padding: 5px;
+}
+
+.mailContacts svg,
+.phoneContacts svg {
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.main_right_table {
+    padding-top: 10px;
+    border: 1px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+  
+  .main_right_table th,td,tr {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+    .main_right_table thead tr th:first-child {
+        background: white;
+        border-left-color:white ;
+        border-top-color:white ;
+      }
+      .main_right_table thead tr:first-child th:first-child {
+          border-bottom:none;
+      }
+      
+      .main_right_table tbody tr:nth-child(odd) {
+        background: rgb(8, 131, 133);
+      }
+      
+      .main_right_table tbody tr:nth-child(even) {
+        background: rgb(99, 220, 180);
+      }
+      
+      thead tr:first-child {
+        background: rgb(16, 104, 91);
+      }
+      
+      thead tr:nth-child(2) {
+        background: rgb(230, 146, 29);
+      }
+      
+      thead tr:first-child {
+        text-transform: uppercase;
+      }
+      
+      td:first-child {
+        font-weight: bold;
+      }
